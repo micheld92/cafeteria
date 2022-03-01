@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--Fav Icon by https://freeicons.io/free-coffee-types-icons-set/macchiato-coffee-cafe-hot-drink-cup-icon-79726#-->
+  <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon" />
+  <title>Cafeteria Quero Café</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+  <script>document.documentElement.className += ' js';</script>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+  <div class="grid-container">
+    <nav class="menu" data-menu="suave">
+      <button data-menu="button" aria-expanded="false" aria-controls="menu">Menu</button>
+      <ul data-menu="list" id="menu">
+        <li><a href="javascript:void(0);">Home</a></li>
+        <li data-dropdown>
+          <a href="sobre.html">Sobre Nós</a>
+          <ul class="dropdown-menu">
+            <li><a href="empresa.html">A Empresa</a></li>
+            <li><a href="unidades.html">Unidades</a></li>
+            <li><a href="cafes-especiais.html">Cafés Especiais</a></li>
+          </ul>
+        </li>
+        <li><a href="#faq">Perguntas Frequentes</a></li>
+        <li><a href="#nossos-rodutos">Produtos</a></li>
+        <li><a href="#trabalhe-conosco">Trabalhe conosco</a></li>
+        <li><a data-modal="abrir" href="login.html">Login →</a></li>
+      </ul>
+    </nav>
+    <section class="grid-section cafes" data-anime="scroll" id="cafes">
+      <h1 class="titulo">Cafeteria<br/> Quero Café</h1>
+      <ul class="cafes-lista" data-tab="menu">
+        <li data-tooltip aria-label="Clique na imagem para ler as informações.">
+          <img src="img/coado.jpg">
+        </li>
+        <li data-tooltip aria-label="Clique na imagem para ler as informações.">
+          <img src="img/expresso.jpg">
+        </li>
+        <li data-tooltip aria-label="Clique na imagem para ler as informações.">
+          <img src="img/americano.jpg">
+        </li>
+        <li data-tooltip aria-label="Clique na imagem para ler as informações.">
+          <img src="img/ristretto.jpg">
+        </li>
+        <li data-tooltip aria-label="Clique na imagem para ler as informações.">
+          <img src="img/latte-macchiato.jpg">
+        </li>
+        <li data-tooltip aria-label="Clique na imagem para ler as informações.">
+          <img src="img/mocha.jpg">
+        </li>
+      </ul>
+      <div class="cafes-descricao" data-tab="content">
+        <section data-anime="show-right">
+          <h2>1. Café Coado</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel enim lectus. Vivamus consequat eget risus in congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi hendrerit mollis eros, maximus dignissim lacus dapibus vitae. Quisque id nunc lacinia.</p>
+          <p>Cras congue malesuada ullamcorper. Donec nisl enim, molestie sed lobortis sit amet, facilisis ac odio. Etiam congue leo est, in aliquet nulla faucibus et. Nam fermentum tellus et posuere feugiat. Suspendisse suscipit nisl dolor. Phasellus non sagittis purus.</p>
+          <p>Proin diam augue, blandit et rutrum quis, tincidunt egestas sem. Ut et arcu quis metus ultrices eleifend. Cras blandit sapien vel quam dignissim fermentum.</p>
+          <p>Duis porttitor sem dictum nisl viverra laoreet. Vestibulum pharetra, tellus et imperdiet pharetra, elit urna elementum tellus, eu laoreet ipsum libero a quam. Praesent porttitor blandit sagittis. Mauris posuere lacus maximus nisl lacinia, in dapibus lacus ultricies. Maecenas enim felis, sollicitudin ac feugiat eu, rutrum vehicula sem.</p>
+        </section>
+        <section data-anime="show-down">
+          <h2>2. Café Expresso</h2>
+          <p>Pellentesque aliquam volutpat sem in porttitor. Aenean sagittis odio neque, sed pretium arcu laoreet eget. Nulla facilisi. Sed finibus sem nisl, ut ultrices sapien condimentum a. Aliquam mollis, nunc eu consectetur cursus, ex sapien mollis erat, ut facilisis neque ante non lorem. In pharetra rhoncus diam eu finibus.</p>
+          <p>Nam in mollis leo. Duis sollicitudin hendrerit tempor. Nam quam eros, blandit nec gravida rhoncus, gravida sit amet nibh. Phasellus gravida aliquet tortor eu interdum. Donec feugiat est nec iaculis iaculis. Nullam placerat congue dictum. Quisque condimentum eros at turpis interdum, a luctus massa venenatis. Donec molestie lacus ut leo sagittis auctor. Fusce pulvinar magna nec pharetra aliquet.</p>
+          <p>Aliquam egestas lacus magna, sit amet feugiat odio interdum in. Morbi efficitur ante sed metus commodo euismod. Sed vel tristique nulla. Curabitur condimentum sagittis neque. Suspendisse bibendum ex a feugiat volutpat.</p>
+        </section>
+        <section data-anime="show-right">
+          <h2>3. Café Americano</h2>
+          <p>In hac habitasse platea dictumst. Etiam rhoncus neque lectus, et ultricies magna vulputate et. Mauris ac vulputate nibh. Sed lacinia purus sem, vitae bibendum quam vulputate nec.</p>
+          <p>Suspendisse dapibus et odio id mollis. In hac habitasse platea dictumst. Mauris malesuada vel nisl ac maximus. Sed nec nisi pellentesque arcu auctor vehicula in eget elit. Quisque facilisis risus enim, in consequat libero efficitur quis. Donec neque ante, ornare nec scelerisque dictum, sagittis quis mi. Integer dignissim luctus lobortis.</p>
+          <p>Mauris faucibus orci quis nibh faucibus, vitae ultrices ligula viverra. Vestibulum tristique justo ut libero lobortis, aliquam vestibulum ante auctor. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin sed leo vitae orci faucibus posuere nec eu orci.</p>
+          <p>Aliquam egestas lacus magna, sit amet feugiat odio interdum in. Morbi efficitur ante sed metus commodo euismod. Sed vel tristique nulla. Curabitur condimentum sagittis neque. Suspendisse bibendum ex a feugiat volutpat. Nulla et malesuada nisi. Aenean quis nisl sit amet arcu dictum venenatis. Vestibulum lobortis dui justo, ut lacinia diam dignissim varius.</p>
+        </section>
+        <section data-anime="show-down">
+          <h2>4. Ristretto</h2>
+          <p>Cras congue malesuada ullamcorper. Donec nisl enim, molestie sed lobortis sit amet, facilisis ac odio. Etiam congue leo est, in aliquet nulla faucibus et. Nam fermentum tellus et posuere feugiat. Suspendisse suscipit nisl dolor. Phasellus non sagittis purus.</p>
+          <p>Proin diam augue, blandit et rutrum quis, tincidunt egestas sem. Ut et arcu quis metus ultrices eleifend. Cras blandit sapien vel quam dignissim fermentum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel enim lectus. Vivamus consequat eget risus in congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi hendrerit mollis eros, maximus dignissim lacus dapibus vitae. Quisque id nunc lacinia.</p>
+          <p>Duis porttitor sem dictum nisl viverra laoreet. Vestibulum pharetra, tellus et imperdiet pharetra, elit urna elementum tellus, eu laoreet ipsum libero a quam. Praesent porttitor blandit sagittis. Mauris posuere lacus maximus nisl lacinia, in dapibus lacus ultricies. Maecenas enim felis, sollicitudin ac feugiat eu, rutrum vehicula sem.</p>
+        </section>
+        <section data-anime="show-right">
+          <h2>5. Latte Macchiato</h2>
+          <p>Nam in mollis leo. Duis sollicitudin hendrerit tempor. Nam quam eros, blandit nec gravida rhoncus, gravida sit amet nibh. Phasellus gravida aliquet tortor eu interdum. Donec feugiat est nec iaculis iaculis. Nullam placerat congue dictum. Quisque condimentum eros at turpis interdum, a luctus massa venenatis. Donec molestie lacus ut leo sagittis auctor. Fusce pulvinar magna nec pharetra aliquet.</p>
+          <p>Pellentesque aliquam volutpat sem in porttitor. Aenean sagittis odio neque, sed pretium arcu laoreet eget. Nulla facilisi. Sed finibus sem nisl, ut ultrices sapien condimentum a. Aliquam mollis, nunc eu consectetur cursus, ex sapien mollis erat, ut facilisis neque ante non lorem. In pharetra rhoncus diam eu finibus.</p>
+          <p>Aliquam egestas lacus magna, sit amet feugiat odio interdum in. Morbi efficitur ante sed metus commodo euismod. Sed vel tristique nulla. Curabitur condimentum sagittis neque. Suspendisse bibendum ex a feugiat volutpat.</p>
+        </section>
+        <section data-anime="show-down">
+          <h2>6. Café Mocha</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vel enim lectus. Vivamus consequat eget risus in congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi hendrerit mollis eros, maximus dignissim lacus dapibus vitae. Quisque id nunc lacinia.</p>
+          <p>Cras congue malesuada ullamcorper. Donec nisl enim, molestie sed lobortis sit amet, facilisis ac odio. Etiam congue leo est, in aliquet nulla faucibus et. Nam fermentum tellus et posuere feugiat. Suspendisse suscipit nisl dolor. Phasellus non sagittis purus.</p>
+          <p>Proin diam augue, blandit et rutrum quis, tincidunt egestas sem. Ut et arcu quis metus ultrices eleifend. Cras blandit sapien vel quam dignissim fermentum.</p>
+          <p>Duis porttitor sem dictum nisl viverra laoreet. Vestibulum pharetra, tellus et imperdiet pharetra, elit urna elementum tellus, eu laoreet ipsum libero a quam. Praesent porttitor blandit sagittis. Mauris posuere lacus maximus nisl lacinia, in dapibus lacus ultricies. Maecenas enim felis, sollicitudin ac feugiat eu, rutrum vehicula sem.</p>
+        </section>
+      </div>
+    </section>
+
+    <section class="grid-section faq" data-anime="scroll" id="faq">
+      <h1 class="titulo">FAQ</h1>
+      <dl class="faq-lista" data-anime="accordion">
+        <dt>Como preparar um café especial?</dt>
+        <dd>Cras congue malesuada ullamcorper. Donec nisl enim, molestie sed lobortis sit amet, facilisis ac odio. Etiam congue leo est, in aliquet nulla faucibus et. Nam fermentum tellus et posuere feugiat. Suspendisse suscipit nisl dolor.</dd>
+        <dt>Como pedir meu café?</dt>
+        <dd>Aliquam egestas lacus magna, sit amet feugiat odio interdum in. Morbi efficitur ante sed metus commodo euismod. Sed vel tristique nulla. Curabitur condimentum sagittis neque. Suspendisse bibendum ex a feugiat volutpat.</dd>
+        <dt>Como pedir meu café?</dt>
+        <dd>Vivamus consequat eget risus in congue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi hendrerit mollis eros, maximus dignissim lacus dapibus vitae. Quisque id nunc lacinia.</dd>
+        <dt>Qual a diferença entre café em grãos ou moído?</dt>
+        <dd>Duis porttitor sem dictum nisl viverra laoreet. Vestibulum pharetra, tellus et imperdiet pharetra, elit urna elementum tellus, eu laoreet ipsum libero a quam. Praesent porttitor blandit sagittis. Mauris posuere lacus maximus nisl lacinia, in dapibus lacus ultricies. Maecenas enim felis, sollicitudin ac feugiat eu, rutrum vehicula sem.</dd>
+      </dl>
+    </section>
+
+    <section class="grid-section numeros" data-anime="scroll">
+      <h1 class="titulo">Nossos Produtos</h1>
+      <div class="numeros-grid">
+        <div class="numero-cafe">
+          <h3>Cafés</h3>
+          <span data-numero>23</span><span> diferentes tipos</span>
+        </div>
+        <div class="numero-cafe">
+          <h3>Chás</h3>
+          <span data-numero>15</span><span> diferentes tipos</span>
+        </div>
+        <div class="numero-cafe">
+          <h3>Cupcakes</h3>
+          <span data-numero>13</span><span> diferentes tipos</span>
+        </div>
+        <div class="numero-cafe">
+          <h3>Tortas</h3>
+          <span data-numero>15</span><span> diferentes tipos</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid-section contato" data-anime="scroll" id="contato">
+      <h1 class="titulo">Onde Nos Encontrar</h1>
+      <div class="mapa" data-tooltip aria-label="Endereço próximo ao terminal de ônibus.">
+        <img src="img/mapa.jpg">
+      </div>
+      <ul class="dados">
+        <li>contato@querocafe.com.br</li>
+        <li>+55 (53) 9999-9999</li>
+        <li>Avenida Silva Paes, nº 1737</li>
+        <li>Rio Grande - RS</li>
+      </ul>
+    </section>
+
+    <footer class="copy">
+      <p>Cafeteria Quero Café&reg; - Desenvolvido por micheld92 linkedin github</p>
+    </footer>
+  </div>
+
+  <section class="modal-container" data-modal="container">
+    <div class="modal">
+      <button data-modal="fechar" class="fechar">X</button>
+      <form action="">
+        <label for="email">Email</label>
+        <input type="text" for="email" id="email">
+        <label for="senha">Senha</label>
+        <input type="password" for="senha" id="senha">
+        <button type="submit">Entrar</button>
+      </form>
+    </div>
+  </section>
+  <script type="module" src="js/script.js"></script>  
+</body>
+</html>
